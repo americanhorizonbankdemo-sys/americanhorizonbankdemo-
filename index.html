@@ -100,18 +100,78 @@
     </section>
 
     <section id="contact" class="section alt">
-      <div class="container">
-        <span class="eyebrow">CONTACT</span>
-        <h2>American Horizon Bank Demo</h2>
-        <p>New York, USA</p>
-        <div class="contact-grid">
-          <div><strong>United States</strong><br>(212) 555-0147</div>
-          <div><strong>United Kingdom</strong><br>+44 20 7946 0183</div>
-          <div><strong>Email</strong><br>support@americanhorizonbankdemo.example</div>
-        </div>
+  <div class="container">
+    <span class="eyebrow">CONTACT</span>
+    <h2>Contact American Horizon Bank Demo</h2>
+    <p>Have a question? Send us a message using the form below.</p>
+
+    <div class="contact-grid">
+      <div>
+        <strong>United States</strong><br>
+        (212) 555-0147
       </div>
-    </section>
-  </main>
+
+      <div>
+        <strong>United Kingdom</strong><br>
+        +44 20 7946 0183
+      </div>
+
+      <div>
+        <strong>Email</strong><br>
+        contact@americanhorizonbank.com
+      </div>
+    </div>
+
+    <form class="contact-form" action="https://formspree.io/f/xyeyqkkr" method="POST">
+      <h3>Send Us a Message</h3>
+
+      <label for="visitorName">Your Name</label>
+      <input
+        type="text"
+        id="visitorName"
+        name="name"
+        placeholder="Enter your name"
+        required
+      >
+
+      <label for="visitorEmail">Your Email</label>
+      <input
+        type="email"
+        id="visitorEmail"
+        name="email"
+        placeholder="Enter your email"
+        required
+      >
+
+      <label for="visitorMessage">Your Message</label>
+      <textarea
+        id="visitorMessage"
+        name="message"
+        rows="5"
+        placeholder="Write your message here"
+        required
+      ></textarea>
+
+      <button type="submit" class="button">Send Message</button>
+
+      <small>
+        This is a fictional demo. Do not enter sensitive personal or banking information.
+      </small>
+    </form>
+  </div>
+</section>
+      
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+  
 
   <footer>
     <div class="container footer-row">
